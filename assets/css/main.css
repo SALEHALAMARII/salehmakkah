@@ -1603,3 +1603,21 @@ body {
     font-size: 0.9rem;
   }
 }
+/* V6 mobile hero order: content → image → CTA; desktop layout remains unchanged */
+@media (max-width: 759px) {
+  .hero-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-copy {
+    display: contents;
+  }
+
+  .hero-copy .eyebrow { order: 1; align-self: flex-start; }
+  .hero-copy h1 { order: 2; }
+  .hero-copy .lead { order: 3; }
+  .hero-media { order: 4; margin-top: 0; margin-bottom: 18px; }
+  .hero-copy .actions { order: 5; }
+  .hero-copy .micro { order: 6; }
+}
