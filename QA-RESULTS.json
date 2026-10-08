@@ -1,0 +1,15 @@
+{
+  "indexable_pages": 22,
+  "new_service_pages": 10,
+  "existing_page_urls_preserved": 12,
+  "local_references_checked": 1054,
+  "fragment_links_checked": 145,
+  "image_files_identical": 34,
+  "original_image_sources_preserved": true,
+  "unique_titles": true,
+  "schema_and_visible_faq_consistent": true,
+  "max_click_depth_from_home": 2,
+  "local_http_pages_ok": 23,
+  "issues": [],
+  "browser_qa": "Not run: no Chromium executable installed in this environment. Static HTML/CSS and local HTTP validation completed."
+}
