@@ -955,7 +955,7 @@ footer {
 
 @media(min-width:1050px) {
   .cards {
-    grid-template-columns: repeat(4, 1fr)
+    grid-template-columns: repeat(3, 1fr)
   }
 
   .service-media {
@@ -1623,3 +1623,111 @@ body {
 
 /* Service navigation and readable city/service content */
 .page-jumps{display:flex;flex-wrap:wrap;gap:10px;padding-block:12px}.page-jumps a{padding:10px 16px;border:1px solid var(--line);border-radius:999px;background:var(--paper);font-weight:700}.service-content{display:grid;gap:18px}.service-content .content-box p:last-child{margin-bottom:0}.city-service{min-width:0}.city-service h3{line-height:1.5}.related-links a{overflow-wrap:anywhere}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offset:4px}html{scroll-padding-top:100px}@media(min-width:1050px){.service-content{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* High-Converting SEO & Technical Tables */
+.table-responsive {
+  overflow-x: auto;
+  margin: 18px 0;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  box-shadow: 0 4px 20px rgba(20, 35, 30, .04);
+}
+table.spec-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: right;
+  font-size: 0.96rem;
+  line-height: 1.6;
+}
+table.spec-table th {
+  background: var(--forest);
+  color: var(--gold-2);
+  padding: 14px 18px;
+  font-weight: 700;
+  border-bottom: 2px solid var(--gold);
+  white-space: nowrap;
+}
+table.spec-table td {
+  padding: 13px 18px;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+  vertical-align: top;
+}
+table.spec-table tr:nth-child(even) td {
+  background: rgba(248, 244, 236, .5);
+}
+table.spec-table tr:last-child td {
+  border-bottom: none;
+}
+.districts-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+.districts-tags span {
+  display: inline-block;
+  padding: 6px 14px;
+  background: rgba(23, 59, 49, .06);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--forest);
+  transition: .2s ease;
+}
+.districts-tags span:hover {
+  background: var(--forest);
+  color: var(--white);
+  border-color: var(--forest);
+}
+.guarantee-box {
+  background: linear-gradient(135deg, rgba(23, 59, 49, .04), rgba(200, 164, 105, .12));
+  border: 1.5px solid var(--gold);
+  border-radius: 18px;
+  padding: 20px 22px;
+  margin: 20px 0;
+}
+.guarantee-box h4 {
+  margin: 0 0 10px 0;
+  color: var(--forest);
+  font-size: 1.15rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.guarantee-box p {
+  margin: 0;
+  color: var(--ink-2);
+  font-size: 0.98rem;
+  line-height: 1.7;
+}
+.hub-banner {
+  background: linear-gradient(135deg, var(--forest), #0d251f);
+  color: var(--white);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  margin: 24px 0;
+  border: 1px solid var(--forest-2);
+}
+.hub-banner h3 {
+  color: var(--gold-2);
+  margin-top: 0;
+  font-size: 1.35rem;
+}
+.hub-banner p {
+  color: rgba(255, 255, 255, .9);
+  margin-bottom: 18px;
+}
+.hub-banner .btn {
+  background: var(--gold);
+  color: var(--forest);
+  font-weight: 800;
+  border: none;
+}
+.hub-banner .btn:hover {
+  background: var(--gold-2);
+}
+
